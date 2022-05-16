@@ -1,0 +1,8 @@
+prefix=/home/unomove/catkin_ws/install
+
+Name: voronoi_planner
+Description: Description of voronoi_planner
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvoronoi_planner
+Requires: costmap_2d geometry_msgs nav_core nav_msgs pluginlib roscpp voronoi_layer
